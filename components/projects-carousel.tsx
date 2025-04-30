@@ -42,6 +42,16 @@ const projects = [
   },
   {
     id: 4,
+    logo: "/casapath-logo-lnFBD.png",
+    logoAlt: "Casa Path Pro Logo",
+    title: "Casa Path Pro",
+    description: "AI-powered prep for a human-powered home search.",
+    link: "https://casapath.pro",
+    buttonText: "Visit Site",
+    disabled: false,
+  },
+  {
+    id: 5,
     emoji: "📺",
     title: "Fully AI-generated Digital Media Content",
     description: "AI-generated YouTube channels on diverse topics — coming soon.",

@@ -41,6 +41,14 @@ export default function Footer() {
             >
               RetailMax Pro
             </Link>
+            <span className="text-gray-600">|</span>
+            <Link
+              href="https://casapath.pro"
+              target="_blank"
+              className="text-gray-400 hover:text-purple-400 text-sm transition-colors"
+            >
+              Casa Path Pro
+            </Link>
           </div>
         </div>
       </div>
