@@ -104,7 +104,7 @@ export default function ContactForm() {
   }
 
   return (
-    <section id="contact" className="py-20 px-6 md:px-12 bg-gray-900">
+    <section id="contact" className="py-12 px-6 md:px-12 bg-gray-900">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -112,7 +112,7 @@ export default function ContactForm() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true, margin: "-100px" }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500">
               Get in Touch
             </span>

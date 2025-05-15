@@ -1,8 +1,7 @@
 import Navbar from "@/components/navbar"
 import Hero from "@/components/hero"
 import ProjectsCarousel from "@/components/projects-carousel"
-import About from "@/components/about"
-import Approach from "@/components/approach"
+import AboutAndApproach from "@/components/about-and-approach"
 import ContactForm from "@/components/contact-form"
 import Footer from "@/components/footer"
 
@@ -13,8 +12,7 @@ export default function Home() {
       <main>
         <Hero />
         <ProjectsCarousel />
-        <About />
-        <Approach />
+        <AboutAndApproach />
         <ContactForm />
       </main>
       <Footer />

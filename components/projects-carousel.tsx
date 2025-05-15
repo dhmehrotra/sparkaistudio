@@ -123,9 +123,9 @@ export default function ProjectsCarousel() {
   }
 
   return (
-    <section id="projects" className="min-h-screen bg-black py-20 px-6 md:px-12 relative">
+    <section id="projects" className="py-12 px-6 md:px-12 relative bg-black">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500">
             Our Projects
           </span>
@@ -138,7 +138,7 @@ export default function ProjectsCarousel() {
           onMouseLeave={() => setIsPaused(false)}
         >
           <motion.div
-            className="flex gap-6 py-8"
+            className="flex gap-6 py-6"
             animate={
               isPaused
                 ? { x: 0 }
