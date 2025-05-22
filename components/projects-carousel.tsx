@@ -52,6 +52,16 @@ const projects = [
   },
   {
     id: 5,
+    logo: "/hometruth-logo-updated-2jKlM.png",
+    logoAlt: "Home Truth AI Logo",
+    title: "Home Truth AI",
+    description: "AI powered document analysis for realtors",
+    link: "https://www.hometruthai.space/",
+    buttonText: "Visit Site",
+    disabled: false,
+  },
+  {
+    id: 6,
     emoji: "📺",
     title: "Fully AI-generated Digital Media Content",
     description: "AI-generated YouTube channels on diverse topics — coming soon.",
