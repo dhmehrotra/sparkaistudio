@@ -148,19 +148,19 @@ export default function ProjectsCarousel() {
           onMouseLeave={() => setIsPaused(false)}
         >
           <motion.div
-            className="flex gap-6 py-6"
+            className="flex gap-6 py-6 min-w-max"
             animate={
               isPaused
                 ? { x: 0 }
                 : {
-                    x: [`0%`, `-${100 / (duplicatedProjects.length / projects.length)}%`],
+                    x: [`0%`, `-${(projects.length * 100) / 2}%`],
                   }
             }
             transition={
               isPaused
                 ? { duration: 0 }
                 : {
-                    duration: 20,
+                    duration: 100,
                     ease: "linear",
                     repeat: Number.POSITIVE_INFINITY,
                     repeatType: "loop",
