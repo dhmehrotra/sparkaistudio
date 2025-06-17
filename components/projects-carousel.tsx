@@ -202,7 +202,7 @@ export default function ProjectsCarousel() {
                           alt={project.logoAlt || project.title}
                           width={80}
                           height={80}
-                          className="h-20 w-auto object-contain"
+                          className={`${project.id === 6 ? "h-16 w-16" : "h-20 w-auto"} object-contain`}
                         />
                       ) : (
                         <div className="text-5xl">{project.emoji}</div>
