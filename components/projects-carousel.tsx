@@ -62,6 +62,16 @@ const projects = [
   },
   {
     id: 6,
+    logo: "/ai-realty-hub-logo-kJ9mX.png",
+    logoAlt: "AI Realty Hub Logo",
+    title: "AI Realty Hub",
+    description: "AI Agents Built to Supercharge Realtors",
+    link: "https://airealtyhub.pro/",
+    buttonText: "Visit Site",
+    disabled: false,
+  },
+  {
+    id: 7,
     emoji: "📺",
     title: "Fully AI-generated Digital Media Content",
     description: "AI-generated YouTube channels on diverse topics — coming soon.",
